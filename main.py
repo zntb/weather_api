@@ -11,4 +11,4 @@ def api(station, date):
     temperature = 24
     return {station: station, "date": date, "temperature": temperature}
 
-app.run(debug=True)
+app.run(debug=True, port=5000)
